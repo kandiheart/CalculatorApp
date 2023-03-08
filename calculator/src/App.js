@@ -8,7 +8,7 @@ const btnValues = [["C", "+-", "%", "/"], [7, 8, 9, "X"], [4, 5, 6, "-"], [1, 2,
 const App = () => {
   return (
     <Wrapper>
-      <Screen value="0" />
+      <Screen value='0'></Screen>
       <ButtonBox>
         {btnValues.flat().map((btn, i)=>{
           return(
