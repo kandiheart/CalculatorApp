@@ -1,4 +1,4 @@
-.button {
+button {
     border: none;
     background-color: rgb(80, 60, 209);
     font-size: 24px;
@@ -9,12 +9,12 @@
     outline: none;
 }
 button:hover {
-    background-color: rgb(61, 43, 184);
+    background-color: rgb(43, 156, 184);
 }
 .equals {
     grid-column: 3/5;
-    background-color: rgb(243, 61, 29);
+    background-color: rgb(161, 29, 243);
 }
 .equals:hover {
-    background-color: rgb(228, 39, 15);
+    background-color: rgb(185, 15, 228);
 }
